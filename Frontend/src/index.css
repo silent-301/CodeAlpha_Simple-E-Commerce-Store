@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+  --font-sans: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply bg-slate-950 text-slate-100 min-h-screen;
+  background: radial-gradient(circle at top left, #1e1b4b, #020617 50%);
+}
+
+#root {
+  @apply min-h-screen flex flex-col;
+}
+
+/* Custom classes for glassmorphism effects that are easier as components than pure Tailwind strings */
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl;
+  }
+  
+  .glass-input {
+    @apply bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white outline-none focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 transition-all;
+  }
+  
+  .primary-btn {
+    @apply bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-6 rounded-xl transition-all active:scale-95 shadow-lg shadow-indigo-600/20 active:shadow-none;
+  }
+
+  .nav-blur {
+    @apply sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-white/5;
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "ELARA Zenith Chronograph",
+    "price": 2499.00,
+    "description": "A masterpiece of horology. The Zenith Chronograph features a titanium grade 5 case, sapphire crystal, and an automatic movement with a 72-hour power reserve. Minimalist gray dial with cyan accents.",
+    "category": "Watch",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800",
+    "rating": { "rate": 4.9, "count": 12 }
+  },
+  {
+    "title": "Aura Noise-Cancelling Headphones",
+    "price": 549.00,
+    "description": "Immersive sound. The Aura series uses proprietary adaptive noise cancellation and spatial audio technology. Crafted from premium sustainable leather and recycled aluminum.",
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=800",
+    "rating": { "rate": 4.7, "count": 85 }
+  },
+  {
+    "title": "Lumina Smart Lamp",
+    "price": 129.00,
+    "description": "Lighting that understands you. Lumina adjusts color temperature based on your circadian rhythm. Beautifully carved wooden base with a frosted glass orb.",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=800",
+    "rating": { "rate": 4.5, "count": 42 }
+  },
+  {
+    "title": "Nova 14-inch Laptop Sleeve",
+    "price": 89.00,
+    "description": "Protection in style. Hand-stitched full-grain leather with a soft microfiber interior. Slim profile for the modern professional.",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977730f5b?auto=format&fit=crop&q=80&w=800",
+    "rating": { "rate": 4.8, "count": 120 }
+  }
+]
